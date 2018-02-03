@@ -1,12 +1,12 @@
 {
   "name": "@datools/di",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Simple Javscript/Typescript dependency injection system",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
-    "build": "tsc -p tsconfig.json",
-    "watch": "tsc -w -p tsconfig.json",
+    "build": "tsc -p tsbuild.json",
+    "watch": "tsc -w -p tsbuild.json",
     "lint": "tslint src/**/*.ts",
     "test": "npm run lint && mocha",
     "prepublishOnly": "npm test && npm run build"
