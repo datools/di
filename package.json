@@ -5,10 +5,11 @@
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
-    "build": "tsc -p build.json",
-    "watch": "tsc -w -p build.json",
+    "build": "tsc -p tsconfig.json",
+    "watch": "tsc -w -p tsconfig.json",
     "lint": "tslint src/**/*.ts",
-    "test": "npm run lint && mocha"
+    "test": "npm run lint && mocha",
+    "prepublishOnly": "npm test && npm run build"
   },
   "keywords": ["ioc", "dependency", "injection", "container"],
   "author": "Simon Babay <simon@babay.fr>",

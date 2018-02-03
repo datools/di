@@ -3,6 +3,7 @@
 > Simple Javscript/Typescript dependency injection system
 
 [![Build Status](https://travis-ci.org/datools/di.svg?branch=master)](https://travis-ci.org/datools/di)
+[![npm version](https://badge.fury.io/js/%40datools%2Fdi.svg)](https://badge.fury.io/js/%40datools%2Fdi)
 
 # Usage
 
