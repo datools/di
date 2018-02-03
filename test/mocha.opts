@@ -1,0 +1,4 @@
+--reporter spec
+--require source-map-support
+--require ts-node/register
+test/index.ts
