@@ -1,7 +1,7 @@
 import * as debug from 'debug';
 import { IServiceProvider } from './IServiceProvider';
 
-const log = debug('@dadoc/core:container');
+const log = debug('@datools/di');
 
 /**
  * Container
